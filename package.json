@@ -1,7 +1,7 @@
 {
-  "name": "sit725-2024-t2-prac4",
+  "name": "sit725-2024-t2-prac6",
   "version": "1.0.0",
-  "description": "A practice project for SIT725, using Node.js and Express.",
+  "description": "A cat food rating app for SIT725 Week 6 practice.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
