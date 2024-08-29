@@ -1,0 +1,27 @@
+{
+  "name": "sit725-2024-t2-prac4",
+  "version": "1.0.0",
+  "description": "A practice project for SIT725, using Node.js and Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hazeljlin/sit725-2024-t2-prac4.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "hazeljlin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^8.5.4"
+  }
+}
