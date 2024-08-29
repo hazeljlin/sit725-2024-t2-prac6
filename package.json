@@ -4,7 +4,8 @@
   "description": "A cat food rating app for SIT725 Week 6 practice.",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test" : "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,11 @@
   "author": "hazeljlin",
   "license": "MIT",
   "dependencies": {
+    "chai": "^5.1.1",
     "express": "^4.17.1",
-    "mongoose": "^8.5.4"
+    "mocha": "^10.7.3",
+    "mongoose": "^8.5.4",
+    "request": "^2.88.2"
+  
   }
 }

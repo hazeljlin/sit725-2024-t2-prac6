@@ -16,9 +16,17 @@ mongoose.connect('mongodb://localhost:27017/catFoodDB')
 app.get('/api/products', productController.getProducts);
 app.post('/api/products', productController.addProduct);
 
+// Test API endpoint
+app.get('/api/test', (req, res) => {
+  res.json({ message: "API is working correctly!" });
+});
+
 const port = process.env.PORT || 3023;
 app.listen(port, () => {
   console.log("App listening to: " + port);
 });
+
+// Export the app for testing
+module.exports = app;
 
 
